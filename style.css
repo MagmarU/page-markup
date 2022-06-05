@@ -1,0 +1,223 @@
+body {
+    font-family: "montserrat";
+    font-weight: 700;
+    font-size: 18px;
+    max-width: 943px;
+    margin: 0 auto;
+}
+
+header {
+    display: flexbox;
+}
+
+p {
+    margin: 0;
+}
+
+.photo {
+    max-width: 943px;
+}
+
+.navbar-menu {
+    padding: 32px 0 32px 0;
+    font-size: 18px;
+    margin: 0;
+    list-style-type: none;
+    line-height: 22.28px;
+    border-bottom: 1px solid #828282;
+}
+
+.navbar-menu li {
+    display: inline-block;
+}
+
+.navbar-menu li a {
+    color: #828282;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .2s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+    color: #070707;
+}
+
+.navbar-menu li {
+    padding-left: 139px;
+}
+
+.navbar-menu li:first-child {
+    padding-left: 0;
+}
+
+.navbar-wrap {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.navbar .container {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.name {
+    /* margin-top: 39.69px; */
+    margin: 39.69px 297.23px 30.64px 0px;
+    font-size: 47.34px;
+    line-height: 100%;
+    display: inline-block;
+}
+
+.profession {
+    font-weight: 500;
+    margin: 94.77px 0 49.67px 0;
+
+}
+
+.NameProf {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.language{
+    margin-left: auto;
+}
+.language-wrapper {
+    padding-top: 65px;
+    margin-top: 69.5px;
+    transform-origin: center;
+    transform: rotate(270deg);
+}
+
+.RuEng {
+    display: inline-block;
+}
+.photo{
+    width: 943px;
+    height: 387px;
+    margin-bottom: 104.06px;
+}
+h1{
+    line-height: 42.09px;
+    margin: 0 0 17.69px 0;
+    font-size: 34px;
+}
+.about{
+    max-width: initial;
+    background-color: #F6F6F6;
+}
+.AboutText{
+    padding: 120.25px 0 107px 0;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 21.83px;
+}
+.AboutText p{
+    font-weight: 500;
+}
+.Skills{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding: 91px 0 110.06px 0;
+}
+.headingSkill{
+    margin: 0;
+}
+.Skill{
+    margin-bottom: 69.1px;
+}
+.SkillText{
+    margin-bottom: 83.49px;
+    font-weight: 500;
+}
+.SkillInApp{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.Applications{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.Apptext{
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    justify-content: center;
+    line-height: 17.33px;
+}
+.SkillInApp .Applications{
+    margin-left: 90.25px;
+}
+.SkillInApp .Applications:first-child{
+    margin-left: 0;
+}
+#AdobePs{
+    margin: 24.21px 0 40.41px 0;
+}
+#Adobe{
+    margin: 23.03px 0 41.41px 0;
+}
+#Figma{
+    margin: 23.58px 0 56.96px 0;
+}
+.portfolio{
+    padding: 112.93px 0 96.07px 0;
+    background-color: #F6F6F6;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.FashionStore{
+    margin: 44.88px 0 99.09px 0;
+    text-decoration: underline;
+    font-weight: 500;
+}
+.FashionStore:last-child{
+    margin: 45.9px 0 0 0;
+}
+footer{
+    padding: 114.24px 0 123.19px 0;
+}
+.container{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.footerapp{
+    display: flex;
+    flex-flow: row nowrap;
+}
+.footerapp img{
+    margin: 85.78px 0 45.76px 61.35px; 
+}
+.footerapp img:first-child{
+    margin-left: 0;
+}
+.Contacts h1{
+    margin:0 0 25px 0;
+
+}
+.ContactsText{
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.FooterButt{
+    padding: 10px 30px;
+    border-radius: 100px;
+    color: #fff;
+    background-color: #070707;
+    border-color: #070707;
+   font-size: 18px;
+}
+.FooterText{
+    text-align: center;
+    font-size: 14px;
+    color: #828282;
+    font-weight: 500;
+}
